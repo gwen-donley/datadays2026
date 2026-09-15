@@ -20,4 +20,5 @@ jobs:
           password: $((secrets.MAIL_PASSWORD))
           subject: Github Actions Test
           to: gdonley@chnhousingpartners.org
+          from: gwendolyn.donley@gmail.com
           html_body: file://analysis.html
