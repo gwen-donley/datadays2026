@@ -16,7 +16,7 @@ jobs:
         uses: dawidd6/action-send-mail@v18
         with:
           server_address: smtp.gmail.com
-          username: gwendolyn.donley@gmail.com
+          username: gwendolyn.donley
           password: $((secrets.MAIL_PASSWORD))
           subject: Github Actions Test
           to: gdonley@chnhousingpartners.org
